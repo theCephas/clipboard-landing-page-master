@@ -171,8 +171,8 @@ h4{
         flex-direction: row;
     }
     .sect3 > img{
-        width: 630px;
-        margin-left: -400px;
+        width: 580px;
+        margin-left: -420px;
         padding-bottom: 0px;
     }
     .sect3-para{
@@ -180,12 +180,12 @@ h4{
     }
     .sect3-para > h5{
         text-align: left;
-        font-size: 1em;
+        font-size: .88em;
         padding-bottom: 0px;
     }
     .sect3-para > p{
         text-align: left;
-        font-size: .899em;
+        font-size: .89em;
         padding-bottom: 30px;
         margin-bottom: 30px;
     }
@@ -224,7 +224,7 @@ h4{
         font-size: 1em;
     }
     .sect4 > h5{
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
     .devices{
         width: 750px;

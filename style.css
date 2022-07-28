@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 130px 0px 50px 0px;
+    padding: 100px 0px 50px 0px;
 }
 .sect1 > img{
     padding-bottom: 60px;
@@ -84,6 +84,11 @@ h3{
     .sect1{
         margin: auto;
         width: 600px;
+        padding: 100px 0px 50px 0px;
+    }
+    .sect1 > img{
+        width: 100px !important; 
+        padding-bottom: 40px;
     }
     h3{
         font-size: 2.3em;
@@ -171,21 +176,22 @@ h4{
         flex-direction: row;
     }
     .sect3 > img{
-        width: 580px;
-        margin-left: -420px;
+        width: 600px;
+        margin-left: -500px;
         padding-bottom: 0px;
     }
     .sect3-para{
-        margin-left: 100px;
+        margin-left: 120px;
     }
     .sect3-para > h5{
         text-align: left;
-        font-size: .88em;
+        font-size: 1em;
         padding-bottom: 0px;
     }
     .sect3-para > p{
         text-align: left;
-        font-size: .89em;
+        width: 350px;
+        font-size: 1em;
         padding-bottom: 30px;
         margin-bottom: 30px;
     }
@@ -217,17 +223,19 @@ h4{
 }
 @media screen and (min-width: 500px){
     .sect4{
-        padding-top: 40px;
+        padding-top: 70px;
     }
     .sect4 > p {
         width: 600px;
         font-size: 1em;
+        padding-bottom: 60px;
     }
     .sect4 > h5{
         font-size: 1.3em;
     }
     .devices{
         width: 750px;
+        padding-bottom: 30px;
     }
 }
 .sect5{
@@ -316,7 +324,7 @@ h4{
     .sect5{
         display: flex;
         flex-direction: row;
-      
+        padding: 0px;
         padding-top: 0px;
     }
     .blacklists{
@@ -324,7 +332,7 @@ h4{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px 0px 0px 0px;
+        padding: 30px 40px 0px 0px;
     }
     .blacklists > img{
         padding-bottom: 30px;
@@ -350,7 +358,7 @@ h4{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 40px 0px 0px;
     }
     .text > img{
         padding-bottom: 30px;
@@ -403,7 +411,7 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 .sect6 > img:nth-child(1){
     padding-bottom: 50px;
@@ -423,26 +431,27 @@ h4{
         flex-direction: row;
         width: 750px;
         margin: auto;
+        padding: 80px 0px 50px 100px;
     }
     .sect6 > img:nth-child(1){
-        padding: 0px 60px 0px 0px;
-        width: 180px;
+        padding: 0px 80px 0px 0px;
+        width: 220px;
     }
     .sect6 > img:nth-child(2){
-        padding: 0px 60px 0px 0px;
-        width: 180px;
+        padding: 0px 80px 0px 0px;
+        width: 220px;
     }
     .sect6 > img:nth-child(3){
-        padding: 0px 60px 0px 0px;
-        width: 180px;
+        padding: 0px 80px 0px 0px;
+        width: 220px;
     }
     .sect6 > img:nth-child(4){
-        padding: 0px 60px 0px 0px;
-        width: 180px;
+        padding: 0px 80px 0px 0px;
+        width: 220px;
     }
     .sect6 > img:nth-child(5){
-        padding: 0px 0px 0px 0px;
-        width: 180px;
+        padding: 0px 80px 0px 0px;
+        width: 220px;
     }
 }
 .sect7{
@@ -488,7 +497,10 @@ footer{
     align-items: center;
     padding: 60px 0px 50px 0px;
 }
-
+footer > img{
+    width: 50px;
+    padding-bottom: 30px;
+}
 .link1 > p {
     text-align: center;
     padding-top: 10px;
@@ -501,6 +513,10 @@ footer{
     text-decoration: none;
     color:hsl(210, 10%, 33%);
 }
+.link1 > p > a:hover{
+    color: hsl(171, 66%, 44%);
+    font-weight: 600;
+}
 .link2 > p {
     text-align: center;
     padding-bottom: 10px;
@@ -512,9 +528,13 @@ footer{
     text-decoration: none;
     color:hsl(210, 10%, 33%);
 }
+.link2 > p > a:hover{
+    color: hsl(171, 66%, 44%);
+    font-weight: 600;
+}
 .link3 > p {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     font-weight: 400;
     font-size: 1.1em;
     line-height: 30px; 
@@ -524,21 +544,26 @@ footer{
     text-decoration: none;
     color:hsl(210, 10%, 33%);
 }
-.fb{
-    padding: 30px 20px 0px 0px;
+.link3 > p > a:hover{
+    color: hsl(171, 66%, 44%);
+    font-weight: 600;
 }
-.twt{
-    padding: 30px 0px 0px 0px;
+.icons > .img-hov{
+    padding: 30px 10px 0px 10px;
 }
-.ins{
-    padding: 30px 0px 0px 20px;
+.img-hov:hover > svg > path{
+    fill: hsl(171, 66%, 44%);
 }
 @media screen and (min-width: 500px){
     footer{
         display: flex;
         flex-direction: row;
-        padding: 20px 0px 0px 0px;
+        padding: 30px 0px 30px 0px;
         justify-content: space-around;
+    }
+    footer > img{
+        width: 50px;
+        padding-bottom: 0px;
     }
     .links{
         display: flex;
@@ -582,16 +607,11 @@ footer{
     .icons{
         padding-bottom: 50px;
     }
-    .fb{
+    .icons > .img-hov{
         padding: 30px 20px 0px 0px;
         cursor: pointer;
     }
-    .twt{
-        padding: 30px 0px 0px 0px;
-        cursor: pointer;
-    }
-    .ins{
-        padding: 30px 0px 0px 20px;
-        cursor: pointer;
+    .img-hov:hover > svg > path{
+        fill: hsl(171, 66%, 44%);
     }
 }

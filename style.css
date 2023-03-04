@@ -81,7 +81,7 @@ h3{
     padding: 20px;
     width: 20em;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .sect1{
         margin: auto;
         width: 600px;
@@ -129,17 +129,17 @@ h4{
     padding-top: 20px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 25px;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .sect2{
         padding: 100px 0px 40px 0px;
     }
     .sect2 > p{
         width: 700px;
         line-height: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 .sect3{
@@ -150,7 +150,7 @@ h4{
     padding: 50px 0px 50px 0px;
 }
 .sect3 > img{
-    width: 300px;
+    width: 200px;
     padding-bottom: 80px;
 }
 .sect3-para > h5{
@@ -171,13 +171,13 @@ h4{
 .sect3-para > p{
     width: 300px;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .sect3{
         display: flex;
         flex-direction: row;
     }
     .sect3 > img{
-        width: 600px;
+        width: 50em;
         margin-left: -370px;
         padding-bottom: 0px;
     }
@@ -220,9 +220,9 @@ h4{
     line-height: 35px;
 }
 .devices{
-    width: 400px;
+    width: 200px;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .sect4{
         padding-top: 70px;
     }
@@ -321,7 +321,7 @@ h4{
     font-size: 1.2em;
     line-height: 30px;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
     .sect5{
         display: flex;
         flex-direction: row;
@@ -426,7 +426,7 @@ h4{
 .sect6 > img:nth-child(4){
     padding-bottom: 50px;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
     .sect6{
         display: flex;
         flex-direction: row;
@@ -478,7 +478,7 @@ h4{
     font-size: 1.1em;
     line-height: 30px;   
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .sect7{
         padding: 50px 0px 80px 0px;
     }
@@ -555,7 +555,7 @@ footer > img{
 .img-hov:hover > svg > path{
     fill: hsl(171, 66%, 44%);
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     footer{
         display: flex;
         flex-direction: row;

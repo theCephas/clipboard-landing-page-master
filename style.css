@@ -95,6 +95,10 @@ h3{
         font-size: 2em;
         font-weight: 700;
     }
+    .sect1 .first > p{
+        font-size: 1em;
+        line-height: 35px;
+    }
     .first-btns{
         display: flex;
         flex-direction: row;
@@ -138,7 +142,7 @@ h4{
     }
     .sect2 > p{
         width: 700px;
-        line-height: 30px;
+        line-height: 35px;
         font-size: 1em;
     }
 }

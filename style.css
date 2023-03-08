@@ -29,30 +29,30 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px 50px 0px;
+    padding: 90px 0px 50px 0px;
 }
 .sect1 > img{
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 .first{
     text-align: center;
 }
 h3{
     color: var(--dark-grayish-blue);
-    font-size: 2.2em;
+    font-size: 2em;
     padding-bottom: 25px;
 }
 .sect1 .first > p{
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     line-height: 25px;
     color: var(--grayish-blue);
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 .first-btns{
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .ios-btn{
     background-color: var(--strong-cyan);
@@ -85,14 +85,14 @@ h3{
     .sect1{
         margin: auto;
         width: 600px;
-        padding: 100px 0px 50px 0px;
+        padding: 90px 0px 50px 0px;
     }
     .sect1 > img{
         width: 100px !important; 
         padding-bottom: 40px;
     }
     h3{
-        font-size: 2.3em;
+        font-size: 2em;
         font-weight: 700;
     }
     .first-btns{
@@ -165,7 +165,7 @@ h4{
     padding-bottom: 50px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 25px;
 }
 .sect3-para > p{
@@ -202,7 +202,7 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 }
 .sect4 > h5{
     color:hsl(210, 10%, 33%);
@@ -213,10 +213,10 @@ h4{
 }
 .sect4 > p {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 35px;
 }
 .devices{
@@ -268,7 +268,7 @@ h4{
     padding-bottom: 50px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 30px;
 }
 .text{
@@ -293,7 +293,7 @@ h4{
     padding-bottom: 0px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 30px;
 }
 .preview{
@@ -318,7 +318,7 @@ h4{
     padding-bottom: 50px;
     color:hsl(201, 11%, 66%);
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 30px;
 }
 @media screen and (min-width: 800px){
@@ -333,7 +333,7 @@ h4{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px 40px 0px 0px;
+        padding: 0px 40px 0px 0px;
     }
     .blacklists > img{
         padding-bottom: 30px;
@@ -415,22 +415,29 @@ h4{
     padding: 50px 0px 50px 0px;
 }
 .sect6 > img:nth-child(1){
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    width: 100px;
 }
 .sect6 > img:nth-child(2){
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    width: 100px;
 }
 .sect6 > img:nth-child(3){
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    width: 100px;
 }
 .sect6 > img:nth-child(4){
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    width: 100px;
+}
+.sect6 > img:nth-child(5){
+    width: 100px;
 }
 @media screen and (min-width: 800px){
     .sect6{
         display: flex;
         flex-direction: row;
-        width: 750px;
+        width: 700px;
         margin: auto;
         padding: 80px 0px 50px 0px;
     }
